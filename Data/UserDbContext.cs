@@ -1,5 +1,4 @@
 using System;
-using AgendaTelefonica.Entities.UserClient;
 using AgendaTelefonica.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,7 +10,6 @@ namespace AgendaTelefonica.Data
         {
 
         }
-        public DbSet<UserClient> Usuarios { get; set; }
         public DbSet<Contacts> Contacts { get; set; }
     }
 }
